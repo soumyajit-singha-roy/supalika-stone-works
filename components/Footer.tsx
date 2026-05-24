@@ -5,10 +5,6 @@ import { IconBrandLinkedin, IconBrandTwitter, IconBrandFacebook } from "@tabler/
 import Link from "next/link";
 
 export default function Footer() {
-  const handleScroll = () => {
-    // Scroll handling removed as we use next/link for routing
-  };
-
   return (
     <footer className="bg-navy-900 border-t-2 border-gold-gradient">
       <div className="max-w-[1440px] mx-auto py-16 px-6 md:px-12 lg:px-24">
